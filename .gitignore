@@ -1,0 +1,43 @@
+## Ignorar carpetas de compilación y salida ##
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio ##
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## JetBrains Rider ##
+.idea/
+*.sln.iml
+
+## Pruebas (Test Results) ##
+TestResults/
+*.trdx
+*.visualstudio_test_results.xml
+
+## Archivos de usuario y configuración local ##
+*.DotSettings.user
+*.launchSettings.json # A veces se ignora si contiene secretos, aunque suele ser útil compartirlo.
+
+## Entornos Web y Frontend (si aplica) ##
+node_modules/
+npm-debug.log
+yarn-error.log
+wwwroot/dist/
+
+## Archivos de entorno y seguridad (¡MUY IMPORTANTE!) ##
+.env
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+## Azure Functions ##
+local.settings.json
+
+## Archivos del sistema operativo ##
+.DS_Store
+Thumbs.db
